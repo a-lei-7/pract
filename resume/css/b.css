@@ -1,0 +1,57 @@
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    color: rgba(255, 255, 255, 0.7);
+    background-color: black;
+}
+
+a{
+    color: inherit;     /*继承父颜色*/
+    text-decoration: none;
+}
+.topNavbar{
+    padding: 10px 15px;
+}
+.topNavbar >nav> ul> li {
+    float: right;
+    margin: 0 17px;
+}
+.topNavbar>nav>ul>li>a{
+    font-size: 14px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    display: block;
+    padding: 4.75px 0;
+    font-weight: bold;
+    margin: 7px 0 0 0 ;
+}
+.topNavbar>nav>ul>li>a:hover{
+    border-bottom: #e8676b 3px solid;
+}
+.topNavbar>.logo{
+    float: left;
+    font-size: 25px;
+    font-family: "Arial Black";
+    margin: 3px 0px;
+    padding-left: 17px;
+    padding-top:2px;
+    padding-bottom: 9px;
+    
+}
+.topNavbar>a>.RS{
+    color: #e05557;
+    padding-right: 4px;
+}
+.topNavbar>a>.card{
+    color: #9a9da2;
+}
